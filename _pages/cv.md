@@ -14,7 +14,7 @@ Education
 * Ph.D in Artificial Intelligence, Hainan University, 2021-2025 (expected)
 * M.S. in Artificial Intelligence, Hainan University, 2018-2021
 * B.S. in Electronics & Information, Soochow University, 2013-2015
-* Collage,  in Electronics & Information, Suzhou Institute of Industrial Technology, 2010-2013
+* College,  in Electronics & Information, Suzhou Institute of Industrial Technology, 2010-2013
 
 
 

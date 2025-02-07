@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Yun Chu / Avatar Space"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Yun Chu"
 description              : &description "personal description"
 url                      : https://chumingqian.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
