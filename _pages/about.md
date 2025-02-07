@@ -42,7 +42,7 @@ Bian Que explained, *"My eldest brother treats illness before symptoms appear, s
 
 **Chinese Medicine is akin to the eldest brother**: Its highest practitioners prevent disease before it manifests, their mastery often unseen.  
 
-The concept of the *"superior physician"* (上医) dates to the pre-Qin text *Guoyu*: *"A superior physician heals the nation; a middling one heals the people."* This underscores that true mastery lies in understanding grand patterns and subtle details alike.  
+The concept of the *"superior physician"*  dates to the pre-Qin text *Guoyu*: *"A superior physician heals the nation; a middling one heals the people."* This underscores that true mastery lies in understanding grand patterns and subtle details alike.  
 
 Tang Dynasty physician Sun Simiao, building on the *Huangdi Neijing*’s wisdom—*"Sages treat not illness but the absence of health, not chaos but its precursors"*—categorized medicine into three tiers:  
 - **Superior physicians** prevent disease at its latent stage.  
