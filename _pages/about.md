@@ -1,49 +1,62 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
+excerpt: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+# Saying hello
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+Hi, there, I am Yun Chu, currently a researcher focused on applying deep learning techniques to classify abnormal respiratory sounds and detect related events, aiming to advance the intelligence of respiratory auscultation.  
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
 
-**Markdown generator**
+# Personal Interesting  
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+I am deeply fascinated by the philosophical traditions of Confucianism, Buddhism, and Taoism in Chinese culture, particularly Taoist and Buddhist teachings. I also hold  respect for Christianity and all religions that guide humanity toward kind. I firmly believe that science and religion should harmoniously coexist, much like the two legs of a human body—mutually supportive and complementary.  
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+# Vision  
+
+1. **Integrate  Chinese Medicine  Meridians with Deep Learning**: Explore the synergy between Chinese Medicine’s meridian system and graph neural networks in deep learning.  
+2. **Model Energy Distribution via Thermal Imaging**: Use thermal infrared imaging to capture the human body’s energy distribution as heatmaps, then apply deep learning energy models for analysis.  
+3. **AI-Driven Modeling of Chinese Medicine and Celestial Theories**: Investigate Chinese Medicine’s Five Elements theory and the influence of celestial bodies on human health through artificial intelligence.  
+
+# A Story  
+
+*"To act against the root is to harm the foundation and destroy the essence. Thus, the interplay of yin and yang and the cycles of the four seasons govern the birth, growth, and demise of all life. Defying these rhythms invites disaster; aligning with them prevents calamity. This is the Way. The wise follow it; the ignorant disregard it. To obey yin and yang is to embrace life; to defy them is to court death. Thus, the sage treats illness before it arises and restores order before chaos erupts. To medicate only after disease takes hold, or to govern only after rebellion begins, is like digging a well when thirst strikes or forging weapons mid-battle—too late!"*  
+
+When King Wei asked the renowned physician Bian Que, *"Your three brothers all practice medicine—who is the most skilled?"*  
+
+Bian Que replied, *"My eldest brother is the best, my second brother is next, and I am the least capable."*  
+
+The king asked, *"Then why are you the most famous?"*  
+
+Bian Que explained, *"My eldest brother treats illness before symptoms appear, so his skill remains unknown. My second brother intervenes at the first signs of disease, earning only local acclaim. I treat severe illnesses with dramatic methods—needles, herbs—so my reputation spreads far and wide."*  
+
+**Chinese Medicine is akin to the eldest brother**: Its highest practitioners prevent disease before it manifests, their mastery often unseen.  
+
+The concept of the *"superior physician"* (上医) dates to the pre-Qin text *Guoyu*: *"A superior physician heals the nation; a middling one heals the people."* This underscores that true mastery lies in understanding grand patterns and subtle details alike.  
+
+Tang Dynasty physician Sun Simiao, building on the *Huangdi Neijing*’s wisdom—*"Sages treat not illness but the absence of health, not chaos but its precursors"*—categorized medicine into three tiers:  
+- **Superior physicians** prevent disease at its latent stage.  
+- **Middling physicians** treat early symptoms.  
+- **Inferior physicians** combat full-blown illness.  
+
+*"Superior physicians cure the undiseased; middling ones treat the impending; inferior ones address the manifest."*  
+
+# Wish  
+
+In my lifetime,  hope we can to empower Chinese Medicine with the wings of artificial intelligence, elevating it for the benefit of all humanity.  
+
+Personally believe most illnesses stem from root causes—erroneous thoughts or harmful habits. By observing external symptoms, we must reflect inward to identify these root imbalances. Healing begins by correcting our mindset and lifestyle. Gentle, holistic methods should come first; surgery is a last resort. The human body, as divinely crafted, has no superfluous parts—each organ and system serves a purpose.  
+
+**I wish we can cherish this wisdom and heal with both ancient insight and modern innovation.**  
+
+---  
