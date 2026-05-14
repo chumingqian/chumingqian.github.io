@@ -7,61 +7,40 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 Education
 ======
-* Ph.D in Artificial Intelligence, Hainan University, 2021-2025 (expected)
+* Ph.D. in Artificial Intelligence / Computer Science, Hainan University, 2021-2025 (expected)
 * M.S. in Artificial Intelligence, Hainan University, 2018-2021
-* B.S. in Electronics & Information, Soochow University, 2013-2015
-* College,  in Electronics & Information, Suzhou Institute of Industrial Technology, 2010-2013
+* B.S. in Electronics & Information Engineering, Soochow University, 2014-2018
 
+*Note: Please update with your actual educational background.*
 
-
-Work experience
+Work Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+*Research Scholar*, Hainan University -- Present
+  * Research at the intersection of Traditional Chinese Medicine, meridian theory, and artificial intelligence.
+  * Developing deep learning models for biomedical signal processing and TCM-relevant imaging.
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+*(Add your publications to the _publications/ directory.)*
+
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
+<ul>{% for post in site.talks reversed %}
+  {% include archive-single-talk-cv.html %}
+{% endfor %}</ul>
+
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+<ul>{% for post in site.teaching reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+Service & Leadership
 ======
-* Currently signed in to 43 different slack teams
+* Open to collaborations in AI + TCM, biomedical signal processing, and meridian theory modeling.
